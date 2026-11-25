@@ -1,6 +1,9 @@
 def fizzbuzz(n):
     for i in range(1, n + 1):
-        print(i)
+        if i % 3 == 0:
+            print("Fizz")
+        else:
+            print(i)
 
 
 if __name__ == "__main__":
